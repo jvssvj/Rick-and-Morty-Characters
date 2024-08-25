@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/indexResponsive.css">
+    <script src="src/index.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/69bb370f53.js" crossorigin="anonymous" defer></script>
+
+    <title>Rick and Morty Characters</title>
+
+</head>
+<body>
+    <header class="ram__header">
+        <section class="ram__header__title__search">
+            <h1 class="ram__header__t">Rick and Morty</h1>
+            <p class="ram__header__p">Character information from the Rick and Morty series.</p>
+            <div class="ram__header__search">
+                <label class="ram__header__search__label" for="search">Search</label>
+                <input type="text" name="search" id="search" placeholder="Which character are you looking for?">
+                <span id="error">Is this name right?</span>
+            </div>
+        </section>
+        
+        <button id="filter-btn">
+            <img class="filter" src="images/filter.png" alt="">
+        </button>
+        <div id="filter-modal">
+            <span class="gender__filter__title">Gender</span>
+            <button id="close-modal">
+                <i class="fa-solid fa-x fa-3xs" style="color: #ff0000;"></i>
+            </button>
+            <div class="gender__filter">
+                <div>
+                    <input type="radio" name="gender" id="female-gender" value="female">
+                    <label class="gender__female__label" for="female-gender">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male-gender" value="male">
+                    <label for="male-gender">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="genderless-gender" value="genderless">
+                    <label for="genderless-gender">Genderless</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="unknown-gender" value="unknown">
+                    <label for="unknown-gender">Unknown</label>
+                </div>
+            </div>
+            <span class="status__filter__title">Status</span>
+            <div class="status__filter">
+                <div>
+                    <input type="radio" name="status" id="alive-status" value="alive">
+                    <label for="alive-status">Alive</label>
+                </div>
+                <div>
+                    <input type="radio" name="status" id="dead-status" value="dead">
+                    <label for="dead-status">Dead</label>
+                </div>
+                <div>
+                    <input type="radio" name="status" id="unknown-status" value="unknown">
+                    <label for="unknown-status">Unknown</label>
+                </div>
+            </div>
+            <button id="clear-filter">Clear filter</button>
+        </div>
+        <div class="ram__header__background">
+            <img class="ram__header__background__img" src="images/background.png" alt="">
+        </div>
+    </header>
+    
+    <main class="characters"></main>
+
+    <div class="ram__nav__btns">
+        <button id="previous">
+            <img class="previous__img" src="images/icon-previous.svg" alt="">
+        </button>
+        
+        <span id="page-number"></span>
+
+        <button id="next">
+            <img class="next__img" src="images/icon-next.svg" alt="">
+        </button>
+        
+    </div>
+
+    <footer class="ram__footer">
+        <a class="ram__api" href="https://rickandmortyapi.com/" target="_blank">Rick and Morty API</a>
+        
+        <div class="ram__footer__socials">
+            <a class="ram__footer__socials__github social" href="https://github.com/jvssvj" target="_blank">
+                <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+            </a>
+            <a class="ram__footer__socials__linkedin social" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-62b518263/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+            </a>
+            <a class="ram__footer__socials__instagram social" href="https://www.instagram.com/jvssvj7?igsh=azQ5cG96eGoxY2ww" target="_blank">
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+            </a>
+        </div>
+        <p class="ram__footer__created">Created and developed by <strong class="ram__footer__created__name">João Vitor</strong></p>
+    </footer>
+</body>
+</html>
