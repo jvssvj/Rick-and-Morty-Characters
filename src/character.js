@@ -18,7 +18,7 @@ async function characters(page, character = '', status = '', gender = '') {
 
         const data = await resp.json()
         const arr = data.results
-        const selectQuantity = arr.slice(0, 6)
+        const selectQuantity = arr.slice(0, 18)
         
         document.querySelector('.characters').innerHTML = ''
 
