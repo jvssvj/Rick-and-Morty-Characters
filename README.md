@@ -1,23 +1,29 @@
 # Rick and Morty Characters</h1>
 
-Desenvolvi esse site sobre personagens de Rick and Morty é uma plataforma que criei para permitir que os fãs da série explorem o universo dos personagens de uma maneira interativa e divertida. Utilizo a API de Rick and Morty para buscar informações detalhadas sobre cada personagem, como o nome, status (se estão vivos, mortos ou com status desconhecido), espécie, gênero e localização.
+Desenvolvi esse site sobre personagens de Rick and Morty é uma plataforma que criei para permitir que os fãs da série explorem o universo dos personagens de uma maneira interativa e divertida. Utilizo a <a href="https://rickandmortyapi.com/">API de Rick and Morty</a> para buscar informações detalhadas sobre cada personagem, como o nome, status (se estão vivos, mortos ou com status desconhecido), espécie, gênero e localização.
 
 <div align='center'>
   <h2>Preview</h2>
   <img src="./design/preview.png" alt="">
 </div>
 
-# Recursos e Funcionalidades 🔎
+## Recursos e Funcionalidades 🔎
  - Pesquisar personagens por nome.
  - Filtrar personagens por status, espécie, ou gênero.
  - Navegação paginada entre os resultados.
  - Exibição detalhada das informações de cada personagem.
 
-# Tecnologias Utilizadas 🔧
-- Frontend: HTML, CSS, JavaScript
-- API: Rick and Morty API
+## Tecnologias Utilizadas 🔧
+<div align=start>
+  <!--HTML5--> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" height="27"
+  <!--CSS3--> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"  height="27"
+  <!--JavaScript--> <img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="Figma" height="27"
+  <!--Adobe Photoshop--> <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" alt="photoshop" height="27"
+  <!--Visual Studio Code--> <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio Code" height="27"
+  <!--GitHub Pages--> <img src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" height="27"
+</div>
 
-### Acesse:
+### Link do site:
 <a target href="https://jvssvj.github.io/Rick-and-Morty-Characters/" target="_blank">Rick and Morty Characters</a>
 
 ## Conecte-se comigo 🔗
